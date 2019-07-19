@@ -1,3 +1,41 @@
-body{
-    background-color: red;
+body {
+    background-color: #fafafafa;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5)
+}
+
+a:hover {
+    text-decoration: none;
+    color: #010101
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*-------Header and Navbar------*/
+.header {
+    padding-top: 15px;
+}
+
+.nav-link {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*----------images--------------*/
+
+.bouguet-image {
+    width: 100%;
+}
+
+.blue-background {
+    background-color: aqua;
+}
+
+.image-row {
+    padding: 30px 15px;
 }
