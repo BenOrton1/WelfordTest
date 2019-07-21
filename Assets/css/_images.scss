@@ -2,7 +2,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 30vh;
+    min-height: 40vh;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -10,7 +10,7 @@
 
 .blue-background {
     background-color: $lightBlue;
-    min-height: 30vh;
+    min-height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,10 +71,13 @@
     height: 50px;
     border-radius: 50%;
     line-height: 50px;
-    top: -25px;
+    top: -10px;
     left: 50%;
     transform: translateX(-50%);
     font-style: italic;
+    @media (min-width:992px) {
+        top: -25px;
+    }
 }
 
 

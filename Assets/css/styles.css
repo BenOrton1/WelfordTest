@@ -51,7 +51,7 @@ h3 {
 
 .blue-background {
   background-color: #9ab4b3;
-  min-height: 30vh;
+  min-height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,7 +92,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 30vh;
+  min-height: 40vh;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
@@ -108,7 +108,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 30vh;
+  min-height: 40vh;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
@@ -124,7 +124,7 @@ h3 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 30vh;
+  min-height: 40vh;
   transition: all .5s ease-in-out;
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
@@ -145,11 +145,17 @@ h3 {
   height: 50px;
   border-radius: 50%;
   line-height: 50px;
-  top: -25px;
+  top: -10px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   font-style: italic;
+}
+
+@media (min-width: 992px) {
+  .circle {
+    top: -25px;
+  }
 }
 
 .background-1 {
@@ -208,6 +214,10 @@ h3 {
   font-size: 75%;
 }
 
+.small-h3 {
+  font-size: 1em;
+}
+
 .textbox {
   background-color: #fafafa;
   text-align: center;
@@ -256,6 +266,12 @@ h3 {
 
 @media (min-width: 992px) {
   .large_text {
+    font-size: 5em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .large_text {
     font-size: 7em;
   }
 }
@@ -274,8 +290,8 @@ h3 {
 .social-row li {
   border: 1px solid #00000029;
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 2em;
+  width: 2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
