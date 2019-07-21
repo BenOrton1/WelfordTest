@@ -1,0 +1,92 @@
+@mixin background-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.blue-background {
+    background-color: $lightBlue;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+        color: $offWhite;
+        text-align: center;
+    }
+}
+
+@media (min-width:992px) {
+    .blue-background {
+        min-height: 40vw;
+    }
+}
+
+.image-row {
+    padding: 15px 15px;
+}
+
+.background-image-1 {
+    @include background-image();
+
+    @media (min-width:992px) {
+        min-height: 40vw;
+    }
+}
+
+.background-image-2 {
+    @include background-image();
+
+    @media (min-width:992px) {
+        min-height: 25vw;
+    }
+}
+
+.background-image-3 {
+    @include background-image();
+
+    @media (min-width:992px) {
+        min-height: 20vw;
+    }
+}
+
+
+.background-1 {
+    background-image: url("../images/amy-shamblen-662202-unsplash.jpg");
+}
+
+.background-2 {
+    background-image: url("../images/thomas-ae-602202-unsplash.jpg");
+    background-position: 50% 20%;
+}
+
+.background-3 {
+    background-image: url("../images/beatriz-perez-moya-191993-unsplash.jpg");
+    background-position: top;
+}
+
+.background-4 {
+    background-image: url("../images/tom-the-photographer-651516-unsplash.jpg");
+}
+
+.background-5 {
+    background-image: url("../images/monika-grabkowska-664428-unsplash.jpg");
+}
+
+.background-6 {
+    background-image: url("../images/tanalee-youngblood-344759-unsplash.jpg");
+}
+
+.background-7 {
+    background-image: url("../images/alexandra-gorn-328026-unsplash.jpg");
+}
+
+.background-8 {
+    background-image: url("../images/christie-kim-769380-unsplash.jpg");
+    background-position: 50% 70%;
+}

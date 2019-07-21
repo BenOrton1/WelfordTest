@@ -1,0 +1,23 @@
+$textColour:rgba(0, 0, 0, 0.5);
+$offWhite:#fafafa;
+$lightBlue:#4f7877;
+body {
+    background-color: $offWhite;
+}
+
+a {
+    text-decoration: none;
+    color: $textColour;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #010101
+}
+
+
+@import './_header';
+
+@import './_images';
+
+@import './_text'
