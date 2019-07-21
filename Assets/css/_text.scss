@@ -1,9 +1,20 @@
-.strikeout{
+.strikeout {
     text-decoration: line-through;
 }
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.italic {
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
+.light_text{
+    color: $lightBlue;
+    font-size: 75%;
 }
 
 .textbox {
@@ -34,11 +45,29 @@
 
 .favourites {
     padding: 2.5em;
+
     h2 {
         font-size: 1.2em;
     }
+
     p {
         font-style: italic;
         color: $textColour;
     }
+}
+
+.large_text {
+    font-size: 3em;
+    margin: 0;
+    line-height: 1em;
+
+    @media (min-width:992px) {
+        font-size: 7em;
+    }
+}
+
+.small-line {
+    border-color: $offWhite;
+    width: 20%;
+    margin-top: 2em;
 }

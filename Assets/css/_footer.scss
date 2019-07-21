@@ -1,0 +1,30 @@
+.social-row {
+    padding: 2.5em;
+    color: $lightBlue;
+    li{
+        border: 1px solid #00000029;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+    a {
+        color: $lightBlue;
+        font-size:1.2em;
+        transform:translateX(10%);
+    }
+}
+.copyright {
+    padding-bottom: 6em;
+}
+
+.footer-nav{
+    flex-direction: column;
+    @media(min-width:992px){
+    flex-direction: row;
+    }
+    
+}
+

@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <script src="https://kit.fontawesome.com/3cdc5abc91.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css" type="text/css" />
@@ -14,7 +15,7 @@
 <body>
     <header>
         <div class="row justify-content-center">
-            <h1 class="header"><a href="index.html">Welford Bouquet!</a></h1>
+            <h1 class="header uppercase"><a href="index.html">Welford Bouquet</a></h1>
         </div>
         <div class="row justify-content-center">
             <div class="col-10">
@@ -27,8 +28,20 @@
                     <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbar-space">
                             <li class="nav-item">
-                                <a class="nav-link uppercase" href="#"><i class="fas fa-search"></i></a>
+                                <a class="nav-link uppercase" href="#"><i class="fas fa-search">
+
+                                    </i></a>
                             </li>
+                            <div class="hidden-search">
+                                <li class="nav-item ">
+                                    <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search"
+                                            aria-label="Search">
+                                        <button class="btn my-2 my-sm-0"
+                                            type="submit">Search</button>
+                                    </form>
+                                </li>
+                            </div>
                             <li class="nav-item">
                                 <a class="nav-link uppercase" href="#">home</a>
                             </li>
@@ -39,7 +52,7 @@
                                 <a class="nav-link uppercase" href="#">Our Story</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link uppercase" href="#">Exibition</a>
+                                <a class="nav-link uppercase" href="#">Exhibition</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link uppercase" href="#">commission</a>
@@ -71,8 +84,11 @@
                 <div class="container col-md-6">
                     <div class=" blue-background">
                         <a href="#">
-                            <p>Take a look</p>
-                            <p>THE WHITBY RANGE</p>
+                            <p class="italic">Take a Look</p>
+                            <p class="uppercase large_text">THE</p>
+                            <p class="uppercase large_text">whitby</p>
+                            <p class="uppercase large_text">range</p>
+                            <hr class="small-line">
                         </a>
                     </div>
                 </div>
@@ -111,7 +127,7 @@
                                 commission
                             </a>
                             <p>
-                                funishings &amp; upholstery
+                                Funishing &amp; upholstery
                             </p>
                         </div>
                     </div>
@@ -120,7 +136,7 @@
             </div>
             <div class="container align-items-center favourites">
                 <div class="row justify-content-center">
-                    <h2>OUR FAVOURITES</h2>
+                    <h2 class="bold">OUR FAVORITES</h2>
                 </div>
                 <div class="row justify-content-center">
                     <P>Lorem ipsum dolor sit amet.</P>
@@ -131,59 +147,61 @@
             <div class="row image-row">
                 <div class="container col-md-3 col-xs-2">
                     <div class=" background-image-3 background-5">
-                        <a href="#">
-                        </a>
+                        <p class="circle">Sale</p>
                     </div>
-                    <div class="row justify-content-center">
-                        <h3 class="uppercase">west cliff</h3>
-                    </div>
-                    <div class="row justify-content-center">
-                        <p>
-                            <i class="strikeout">£290 </i> £250
-                        </p>
-                    </div>
+                    <a href="#">
+
+                        <div class="row justify-content-center">
+                            <h3 class="uppercase bold">west cliff</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p>
+                                <i class="strikeout">£290.00</i> £250.00
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="container col-md-3 col-xs-2">
                     <div class="background-image-3 background-6">
-                        <a href="#">
-                        </a>
                     </div>
-                    <div class="row justify-content-center">
-                        <h3 class="uppercase">west cliff</h3>
-                    </div>
-                    <div class="row justify-content-center">
-                        <p>
-                            £290 £250
-                        </p>
-                    </div>
+                    <a href="#">
+                        <div class="row justify-content-center">
+                            <h3 class="uppercase bold">esk</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p>
+                                £110.00
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="container col-md-3 col-xs-2">
-                    <div class="background-image-3 background-7">
-                        <a href="#">
-                        </a>
-                    </div>
-                    <div class="row justify-content-center">
-                        <h3 class="uppercase">west cliff</h3>
-                    </div>
-                    <div class="row justify-content-center">
-                        <p>
-                            £290 £250
-                        </p>
-                    </div>
+                    <a href="#">
+                        <div class="background-image-3 background-7">
+                        </div>
+                        <div class="row justify-content-center">
+                            <h3 class="uppercase bold">sandsend</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p>
+                                £360.00
+                            </p>
+                        </div>
+                    </a>
                 </div>
                 <div class="container col-md-3 col-xs-2">
-                    <div class=" background-image-3 background-8">
-                        <a href="#">
-                        </a>
-                    </div>
-                    <div class="row justify-content-center">
-                        <h3 class="uppercase">west cliff</h3>
-                    </div>
-                    <div class="row justify-content-center">
-                        <p>
-                            £290 £250
-                        </p>
-                    </div>
+                    <a href="#">
+                        <div class=" background-image-3 background-8">
+                        </div>
+                        <div class="row justify-content-center">
+                            <h3 class="uppercase bold">west cliff cushion</h3>
+                        </div>
+                        <div class="row justify-content-center">
+                            <p>
+                                £250.00
+                            </p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -192,34 +210,46 @@
     <footer>
         <hr>
         <div class="row justify-content-center">
-            <ul>
-                <l1>
-                    <a class="uppercase" href="#">faq</a>
-                </l1>
-                <l1>
-                    <a class="uppercase" href="#">deliveries &amp; returns</a>
-                </l1>
-                <l1>
-                    <a class="uppercase" href="#">tems &amp; conditions</a>
-                </l1>
-                <l1>
-                    <a class="uppercase" href="#"> contact us</a>
-                </l1>
-            </ul>
+            <div class="col-xs-12 col-md-6 footer-row">
+                <ul class="navbar-space footer-nav">
+                    <li>
+                        <a class="uppercase" href="#">faq</a>
+                    </li>
+                    <li>
+                        <a class="uppercase" href="#">deliveries &amp; returns</a>
+                    </li>
+                    <li>
+                        <a class="uppercase" href="#">terms &amp; conditions</a>
+                    </li>
+                    <li>
+                        <a class="uppercase" href="#"> contact us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <hr>
+        <hr class="no-margin">
         <div class="row justify-content-center">
-            <ul>
-                <l1>
-                    <a class="social" href="#">T</a>
-                </l1>
-                <l1>
-                    <a class="social" href="#">F</a>
-                </l1>
-                <l1>
-                    <a class="social" href="#">i</a>
-                </l1>
-            </ul>
+            <div class="col-ex col-md-2">
+                <ul class="social-row navbar-space">
+                    <li>
+                        <a class="social" href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a class="social" href="#"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a class="social" href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="row justify-content-center">
+                <p class="uppercase light_text">copyright 2017</p>
+            </div>
+            <div class="row justify-content-center">
+                <p class="italic">Made in Yorkshire.</p>
+            </div>
         </div>
     </footer>
 
@@ -232,6 +262,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="assets/scripts/script.js"></script>
 </body>
 
 </html>

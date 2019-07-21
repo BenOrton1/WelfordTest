@@ -1,8 +1,11 @@
 $textColour:rgba(0, 0, 0, 0.5);
 $offWhite:#fafafa;
-$lightBlue:#4f7877;
+$lightBlue:#9ab4b3;
+
 body {
     background-color: $offWhite;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
 }
 
 a {
@@ -10,14 +13,28 @@ a {
     color: $textColour;
 }
 
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
 a:hover {
     text-decoration: none;
     color: #010101
 }
 
+.no-margin {
+    margin: 0;
+}
+
+h3 {
+    padding: 15px;
+}
 
 @import './_header';
 
 @import './_images';
 
-@import './_text'
+@import './_text';
+
+@import './footer';
